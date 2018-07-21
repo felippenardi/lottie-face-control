@@ -7,7 +7,9 @@
     "react": "^16.4.1",
     "react-dom": "^16.4.1",
     "react-lottie": "^1.2.3",
-    "react-scripts": "1.1.4"
+    "react-motion": "^0.5.2",
+    "react-scripts": "1.1.4",
+    "react-values": "^0.2.4"
   },
   "scripts": {
     "start": "react-scripts start",
