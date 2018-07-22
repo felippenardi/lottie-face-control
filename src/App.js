@@ -13,30 +13,20 @@ const inputStyle = {
 }
 
 class App extends Component {
-  state = {
-  }
-
-  componentDidMount() {
-    this.setState({ isPaused: false })
-  }
-
   render() {
     return (
-      <ObjectValue defaultValue={{position: 0, isActive: false}}>
-        {({value: reading, assign: assignReading}) => (
-          <div>
-            <Motion
-              defaultStyle={{x: 0, y: 0}}
-              style={{
-                x: spring(reading.isActive ? reading.position - 200 : 0),
-                y: spring(reading.isActive ? 200 : 0),
-            }}>
-              {({ x, y }) => (
-                <div style={{width: '400px'}}>
+      <div style={{width: '400px'}}>
+        <ObjectValue defaultValue={{position: 0, isActive: false}}>
+          {({value: reading, assign: assignReading}) => (
+            <div>
+              <Motion
+                defaultStyle={{x: 0, y: 0}}
+                style={{
+                  x: spring(reading.isActive ? reading.position - 200 : 0),
+                  y: spring(reading.isActive ? 200 : 0),
+                }}>
+                {({ x, y }) => (
                   <Lottie
-                    width={400}
-                    height={400}
-                    isPaused={this.state.isPaused}
                     options={{
                       animationData: face,
                       animationControl: {
@@ -44,23 +34,24 @@ class App extends Component {
                       }
                     }}
                   />
-                </div>
-              )}
-            </Motion>
-            <StringValue onChange={(value) => assignReading({ position: value.length * 15 })}>
-              {({value: text, set: setText}) => (
-                <input
-                  style={inputStyle}
-                  value={text}
-                  onBlur={() => assignReading({ isActive: false })}
-                  onFocus={(e) => assignReading({ isActive: true })}
-                  onChange={e => setText(e.target.value)}
-                />
-              )}
-            </StringValue>
-          </div>
-        )}
-      </ObjectValue>
+                )}
+              </Motion>
+
+              <StringValue onChange={(value) => assignReading({ position: value.length * 15 })}>
+                {({value: text, set: setText}) => (
+                  <input
+                    style={inputStyle}
+                    value={text}
+                    onBlur={() => assignReading({ isActive: false })}
+                    onFocus={(e) => assignReading({ isActive: true })}
+                    onChange={e => setText(e.target.value)}
+                  />
+                )}
+              </StringValue>
+            </div>
+          )}
+        </ObjectValue>
+      </div>
     );
   }
 }
