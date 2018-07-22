@@ -33,6 +33,7 @@ class App extends Component {
                         'JoyStkCtrl01,Transform,Position': [x, y],
                       }
                     }}
+                    isClickToPauseDisabled={true}
                   />
                 )}
               </Motion>
