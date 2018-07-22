@@ -10,6 +10,7 @@
 /build
 
 # misc
+*/Adobe After Effects Auto-Save
 .DS_Store
 .env.local
 .env.development.local
