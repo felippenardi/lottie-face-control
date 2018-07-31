@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import Lottie from './utils/LottieWithAnimationControl'
+import Lottie from 'lottie-react-web'
 import Mouse from './utils/Mouse'
 import face from './face.json'
 import { Motion, spring } from 'react-motion';

@@ -6,7 +6,7 @@
     "lottie-api": "https://github.com/bodymovin/lottie-api",
     "react": "^16.4.1",
     "react-dom": "^16.4.1",
-    "react-lottie": "^1.2.3",
+    "lottie-react-web": "^2.0.0-1",
     "react-motion": "^0.5.2",
     "react-scripts": "1.1.4",
     "react-values": "^0.2.4"
