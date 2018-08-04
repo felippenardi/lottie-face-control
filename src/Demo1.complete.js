@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 import Lottie from 'lottie-react-web'
 import twitterHeart from './TwitterHeart.json'
 

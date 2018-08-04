@@ -1,7 +1,6 @@
-import React, { Component } from 'react';
+import React from 'react';
 import Lottie from 'lottie-react-web'
 import face from './face2.json'
-import { ObjectValue } from 'react-values'
 import Mouse from './utils/Mouse'
 
 const Demo5Complete = () => (

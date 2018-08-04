@@ -1,5 +1,5 @@
-import React, { Component } from 'react';
-import { Route, Link } from 'react-router-dom';
+import React from 'react';
+import { Route } from 'react-router-dom';
 import Demo1 from './Demo1'
 import Demo2 from './Demo2'
 import Demo3 from './Demo3'

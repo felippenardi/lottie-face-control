@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 
 class Mouse extends React.Component {
   state = { x: 0, y: 0 }
