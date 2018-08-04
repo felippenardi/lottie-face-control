@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import Lottie from 'lottie-react-web'
 import twitterHeart from './TwitterHeart.json'
 
-const Demo2Complete = () => (
+const Demo2 = () => (
   <div>
     <Lottie
       options={{
@@ -12,4 +12,4 @@ const Demo2Complete = () => (
   </div>
 )
 
-export default Demo2Complete
+export default Demo2
