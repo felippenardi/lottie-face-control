@@ -8,7 +8,7 @@ const Demo2Complete = () => (
     {({ value, toggle }) => (
       <div onClick={toggle}>
         <Lottie
-          direction={value ? -1 : 1}
+          direction={value ? 1 : -1}
           speed={1.5}
           options={{
             animationData: twitterHeart,
