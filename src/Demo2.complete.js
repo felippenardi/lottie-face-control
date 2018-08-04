@@ -11,9 +11,8 @@ const Demo2Complete = () => (
           direction={value ? -1 : 1}
           speed={1.5}
           options={{
+            animationData: twitterHeart,
             loop: false,
-            autoplay: false,
-            animationData: twitterHeart
           }}
         />
       </div>
