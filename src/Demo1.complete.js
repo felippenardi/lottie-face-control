@@ -1,12 +1,12 @@
 import React from 'react';
 import Lottie from 'lottie-react-web'
-import twitterHeart from './TwitterHeart.json'
+import menu from './menu.json'
 
 const Demo1Complete = () => (
-  <div>
+  <div style={{width: 100}}>
     <Lottie
       options={{
-        animationData: twitterHeart
+        animationData: menu
       }}
     />
   </div>
