@@ -1,4 +1,4 @@
-import React from 'react';
+import React from 'react'
 import Lottie from 'lottie-react-web'
 import face from './face.json'
 

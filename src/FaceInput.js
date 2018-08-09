@@ -1,7 +1,7 @@
-import React, { Component } from 'react';
+import React, { Component } from 'react'
 import Lottie from 'lottie-react-web'
 import face from './face.json'
-import { Motion, spring } from 'react-motion';
+import { Motion, spring } from 'react-motion'
 import { ObjectValue, StringValue } from 'react-values'
 
 const inputStyle = {
