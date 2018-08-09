@@ -26,9 +26,9 @@ const FaceInput = () => (
               <Lottie
                 options={{
                   animationData: face,
-                  animationControl: {
-                    'JoyStkCtrl01,Transform,Position': [x, y],
-                  }
+                }}
+                animationControl={{
+                  'JoyStkCtrl01,Transform,Position': [x, y],
                 }}
               />
             )}

@@ -7,9 +7,9 @@ const Face1 = () => (
     <Lottie
       options={{
         animationData: face,
-        animationControl: {
-          'JoyStkCtrl01,Transform,Position': [-200,300]
-        }
+      }}
+      animationControl={{
+        'JoyStkCtrl01,Transform,Position': [200,300]
       }}
     />
   </div>
