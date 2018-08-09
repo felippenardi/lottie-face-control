@@ -1,8 +1,8 @@
 import React from 'react';
 
-const Demo1 = () => (
+const Menu = () => (
   <div>
   </div>
 )
 
-export default Demo1
+export default Menu

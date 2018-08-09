@@ -3,7 +3,7 @@ import Lottie from 'lottie-react-web'
 import menu from './menu.json'
 import { BooleanValue } from 'react-values'
 
-const Demo2Complete = () => (
+const Menu2 = () => (
   <BooleanValue>
     {({ value, toggle }) => (
       <div onClick={toggle} style={{ width: 100 }}>
@@ -19,4 +19,4 @@ const Demo2Complete = () => (
   </BooleanValue>
 )
 
-export default Demo2Complete
+export default Menu2

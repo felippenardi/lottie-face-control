@@ -2,7 +2,7 @@ import React from 'react';
 import Lottie from 'lottie-react-web'
 import menu from './menu.json'
 
-const Demo1Complete = () => (
+const Menu1 = () => (
   <div style={{width: 100}}>
     <Lottie
       options={{
@@ -12,4 +12,4 @@ const Demo1Complete = () => (
   </div>
 )
 
-export default Demo1Complete
+export default Menu1

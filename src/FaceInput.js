@@ -11,7 +11,7 @@ const inputStyle = {
   width: '400px',
 }
 
-const Demo6Complete = () => (
+const FaceInput = () => (
   <div style={{width: '400px'}}>
     <ObjectValue defaultValue={{position: 0, isActive: false}}>
       {({value: reading, assign: assignReading}) => (
@@ -51,4 +51,4 @@ const Demo6Complete = () => (
   </div>
 )
 
-export default Demo6Complete
+export default FaceInput

@@ -1,9 +1,9 @@
 import React from 'react';
 import Lottie from 'lottie-react-web'
-import face from './face2.json'
+import face from './face.json'
 import Mouse from './utils/Mouse'
 
-const Demo5Complete = () => (
+const Face2 = () => (
   <Mouse>
     {({ x, y }) => (
       <div style={{ width: 400 }}>
@@ -20,4 +20,4 @@ const Demo5Complete = () => (
   </Mouse>
 )
 
-export default Demo5Complete
+export default Face2

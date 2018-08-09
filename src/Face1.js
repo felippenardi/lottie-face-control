@@ -2,7 +2,7 @@ import React from 'react';
 import Lottie from 'lottie-react-web'
 import face from './face.json'
 
-const Demo4 = () => (
+const Face1 = () => (
   <div style={{ width: 400 }}>
     <Lottie
       options={{
@@ -15,4 +15,4 @@ const Demo4 = () => (
   </div>
 )
 
-export default Demo4
+export default Face1
