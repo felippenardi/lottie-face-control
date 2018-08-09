@@ -9,7 +9,6 @@ const Demo2Complete = () => (
       <div onClick={toggle} style={{ width: 100 }}>
         <Lottie
           direction={value ? 1 : -1}
-          speed={1.5}
           options={{
             animationData: menu,
             loop: false,
